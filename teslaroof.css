@@ -1,0 +1,98 @@
+.greyg:hover{
+    background-color: rgba(82, 76, 76, 0.15);
+    
+}
+a{
+    color: black !important;
+    text-decoration: underline transparent !important;
+}
+.boo:hover{
+    text-decoration: underline 2px !important;
+}
+.height{
+    height: 100vh !important;
+}
+.h11{
+    background-image: url(./Solar-Roof-Hero-Desktop-Global.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.h22{
+    background-image: url(./Solar-Roof-Design-Desktop-Global.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#h22{
+    height: 120vh !important;
+}
+.h33{
+    background-image: url(./Solar-Roof-Energy-Desktop-Global.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.h55{
+    height: 160vh !important;
+}
+.h66{
+    background-image: url(./Inverter_V8_D.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.h77{
+    background-image: url(./SR-tesla-app-D.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.h88{
+    background-color: black;
+    background-image: url(./Solar-Roof-Value-Desktop-Global.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.h99{
+    background-color: black;
+    background-image: url(./PanelMeasure_desktop2x.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.h10{
+    background-color: black;
+}
+@media (max-width: 450px){
+    
+    .hsm{
+        height: 200vh !important;
+    }
+    .hsma{
+        height: 260vh !important;
+    }
+    .hsmf{
+        font-size: 12px !important;
+    }
+}
+@media (max-width: 767px){
+    .h11{
+        background-size: 200% 200%;
+        background-position: -100px -300px;
+    }
+    .h33{
+        background-size: 200% 150%;
+        background-position: -400px -400px;
+    }
+}
+@media (min-width: 767px){
+    .hotw{
+        height: 50% !important;
+    }
+    .h-70{
+        height: 70% !important;
+    }
+    .h-30{
+        height: 30% !important;
+    }
+}
+@media (max-width: 768px) {
+    .hew{
+        height: 50% !important;
+    }
+}

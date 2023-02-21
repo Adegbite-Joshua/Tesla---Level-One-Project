@@ -1,0 +1,172 @@
+body{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.height{
+    width: 100vw;
+    height: 100vh !important;
+    background-color: white;
+    overflow-x: hidden;
+}
+#h33{
+    height: 100vh !important;
+}
+.height88 {
+    width: 100vw;
+    height: 280vh !important;
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+.poid{
+    width: 1px !important;
+    height:35px;
+    margin-top: 30vh;
+}
+.poid a{
+    width: 1px !important;
+    height: 3px !important;
+    background-color: red !important;
+    z-index: 999;
+    
+}
+.poid a:active{
+    background-color: black !important;
+}
+.h11{
+    background-image: url(./Model-3-Main-Hero-Desktop-LHD.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    /* background-position: -300px -100px; */
+}
+.h22{
+    background-image: url(./model-3-hero-a-desktop.jpeg);
+    background-size: 100% 100%;
+}
+.h33{
+    background-image: url(./Model-3-Performance-Hero-Desktop-LHD.jpeg);
+    background-size: 100% 100%;
+}
+.h44{
+    background-image: url(./Model-3-AWD-Hero-Desktop-LHD.jpeg);
+    background-size: 100% 100%;
+}
+.h55{
+    background-image: url(./Model-3-Range-Hero-Desktop-LHD.jpeg);
+    background-size: 100% 100%;
+}
+.h66{
+    background-image: url(./Autopilot-Hero-Vision-Desktop.jpeg);
+    background-size: 100% 100%;
+}
+.h77{
+    background-image: url(./Model-3-Interior-Hero-Desktop-LHD.jpeg);
+    background-size: 100% 100%;
+}
+.h88{
+    background-image: url(./Model-3-Specs-Desktop-Mobile-LHD.jpeg);
+    background-size: 100% 100%;
+}
+.h99{
+    background-image: url(./Model-3-Order-Hero-Desktop-Mobile-Global.jpeg);
+    background-size: 100% 100%;
+}
+.greyg:hover{
+    background-color: rgba(82, 76, 76, 0.15);
+    
+}
+a{
+    color: black !important;
+    text-decoration: underline transparent !important;
+}
+.foosm{
+    font-size: 0.7em;
+}
+.hlarg{
+    height: 50%;
+}
+@media (min-width: 768px) {
+    .hlarg{
+        height: 100% !important;
+    }
+    .hotw{
+        height: 75% !important;
+    }
+    .height88{
+        height: 150vh !important;
+    }
+    .hotwo{
+        height: 25%;
+    }
+}
+
+@media (max-width: 767px) {
+    .h22{
+        background-size: 200% 100%;
+        background-position: -150px 0;
+    }
+    .height{
+        height: 130vh !important;
+    }
+    .hotw{
+        height: 50% !important;
+    }
+    .htre{
+        height: 40% !important;
+    }
+    .htree{
+        height: 20% !important;
+    }
+}
+
+@media (max-width: 1300px){
+    #h33{
+        height: 180vh !important;
+    }
+    #h44{
+        height: 150vh !important;
+    }
+}
+
+@media (max-width: 450px){
+    .h22{
+        background-position: -50px;
+    }
+    #h22{
+        height: 200vh !important;
+    }
+    .hsm{
+        height: 200vh !important;
+    }
+    .hsmf{
+        font-size: 12px !important;
+    }
+    .wgt{
+        width: 100% !important;
+    }
+    
+}
+
+@media (min-width: 250px){
+    .why{
+        width: 25% !important;
+    }
+}
+
+
+@media (min-width: 1080px){
+    .mbt{
+        margin-top: 3rem !important;
+        padding-top: 3rem !important;
+    }
+} 
+
+@media (min-width: 767px){
+    .h23{
+        height: 66.667% !important;
+    }
+    .h13{
+        height: 33.333% !important;
+    }
+}

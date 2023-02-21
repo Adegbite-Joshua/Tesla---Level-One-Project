@@ -1,0 +1,114 @@
+body{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+/* portfolio pure cssscroll snapping tutorial */
+
+
+.scroll {
+    scroll-snap-type:y mandatory;
+    overflow-y: scroll;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .down {
+    scroll-snap-align: start;
+  }
+a{
+    color: black !important;
+    text-decoration: underline transparent !important;
+}
+.height{
+    height: 100vh;
+    background-color: white;
+    overflow-x: hidden;
+}
+.overall{
+    position: relative !important;
+    z-index: 9999999 !important;
+}
+.h11{
+    background-image: url(./M3-Homepage-Desktop-LHD.jpeg);
+    background-repeat: no-repeat;
+    background-size: 130% 150% !important;
+    background-position: -120px -100px;
+
+    /* overflow: hidden; */
+}
+.h22{
+    background-image: url(./Desktop-ModelY.jpeg);
+    background-repeat: no-repeat;
+    background-size: 150% 200%;
+    background-position: -400px -200px;
+}
+.boo:hover{
+    text-decoration: underline 2px !important;
+}
+.buthe{
+    height: 45px;
+}
+.h33{
+    background-image: url(./Homepage-Model-S-Desktop-LHD.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-position: -400px -400px; */
+}
+.h44{
+    background-image: url(./Homepage-Model-X-Desktop-LHD.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 140%;
+    background-position: 0 -120px;
+}
+.h55{
+    background-image: url(./_25-HP-SolarPanels-D.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-position: -400px -400px; */
+}
+.h66{
+    background-image: url(./Solar-Roof-Design-Desktop-Global.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-position: -400px -400px; */
+}
+.h77{
+    background-image: url(./dd739764-bcaa-4263-9488-8c73bc9fb046.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 170%;
+    background-position: 0 -250px;
+}
+.bigt{
+    animation-name: disappearb;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-play-state: paused;
+
+}
+.bigt:-moz-full-screen{
+    animation-play-state: running;
+}
+
+.greyg:hover{
+    background-color: rgba(82, 76, 76, 0.15);
+    
+}
+
+.foosm{
+    font-size: 0.7em;
+}
+
+@media (max-width: 767px){
+    .h22{
+        background-size: 150% 150%;
+        background-position: -100px -200px;
+    }
+    .h11{
+        background-size: 150% 150%;
+        background-position: -50px -200px;
+    }
+}

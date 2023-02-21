@@ -1,0 +1,133 @@
+.greyg:hover{
+    background-color: rgba(82, 76, 76, 0.15);
+    
+}
+a{
+    color: black !important;
+    text-decoration: underline transparent !important;
+}
+.h11{
+    background-image: url(./M3-Homepage-Desktop-LHD.jpeg);
+    background-repeat: no-repeat;
+    background-size: 130% 150% !important;
+    background-position: -120px -100px;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.h22{
+    height: 110vh;
+    background-image: url(./Desktop-ModelY.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.h33{
+    height: 120vh;
+    /* overflow: hidden; */
+}
+.h44{
+    height: 140vh;
+    background-color: black;
+}
+.h55{
+    height: 100vh;
+}
+.h555{
+    background-image: url(./Model-S-Performance-Hero-Desktop-LHD.jpeg);
+    background-size: 150% 150%;
+    background-repeat: no-repeat;
+    background-position-x: -200px;
+    background-position-y: -20px;
+}
+.h66{
+    height: 205vh;
+    background-color: #F4F4F4;
+}
+.h666{
+    height: 100vh;
+    background-image: url(./model-s-performance-dual-motor-desktop_carousel-new.jpeg);
+    background-size: 150% 120%;
+    background-position: -230px 0;
+    width: 90%;
+    
+}
+.h77{
+    height: 100vh !important;
+}
+.h777{
+    background-image: url(./Model-S-Exterior-Hero-Desktop-Global.jpeg);
+    background-size: 100% 200%;
+    background-position: 0 -170px;
+    background-repeat: no-repeat;
+}
+.h88{
+    height: 100vh !important;
+}
+.h99{
+    height: 100vh !important;
+}
+.h999{
+    background-image: url(./Autopilot-Hero-Vision-Desktop.jpeg);
+    background-size: 100% 100%;
+}
+.h10{
+    height: 100vh !important;
+}
+.h100{
+    background-image: url(./model-3-hero-a-desktop.jpeg);
+    background-size: 100% 100%;
+}
+.hh1{
+    height: 100vh !important;
+}
+.hh11{
+    background-image: url(./Model-3-Specs-Desktop-Mobile-LHD.jpeg);
+    background-size: 100% 100%;
+}
+.bgba{
+    background-image: linear-gradient(transparent, black, black, transparent);
+}
+
+.acy:active{
+    opacity: 0;
+}
+.acy1:active{
+    opacity: 0;
+}
+
+@media (max-width: 767px){
+    .hotw{
+        height: 50% !important;
+    }
+    .bgba{
+        height: 700px !important;
+        margin-top: -40% !important;
+    }
+    .nnn{
+        margin-top: -40% !important;
+    }
+
+}
+@media (max-width: 500px){
+    .h11{
+        background-size: 130% 180% !important;
+        background-position: -60px -150px;
+    }
+    .smb{
+        width: 70% !important;
+        display: block;
+    }
+    .aaa{
+        margin-left: 20% !important;
+    }
+}
+@media (max-width: 450px){
+    .hsm{
+        height: 200vh !important;
+    }
+    .hsma{
+        height: 260vh !important;
+    }
+    .hsmf{
+        font-size: 12px !important;
+    }
+}
