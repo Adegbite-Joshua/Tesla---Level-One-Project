@@ -22,12 +22,14 @@ body{
     width: 1px !important;
     height:35px;
     margin-top: 30vh;
+    z-index: 99999;
 }
 .poid a{
-    width: 1px !important;
+    width: 5px !important;
     height: 3px !important;
     background-color: red !important;
     z-index: 999;
+    padding: 5px 0;
     
 }
 .poid a:active{
@@ -56,9 +58,13 @@ body{
     background-image: url(./Model-3-Range-Hero-Desktop-LHD.jpeg);
     background-size: 100% 100%;
 }
-.h66{
+#h66{
     background-image: url(./Autopilot-Hero-Vision-Desktop.jpeg);
     background-size: 100% 100%;
+}
+.h66::-webkit-scrollbar{
+    width: 0;
+    height: 0;
 }
 .h77{
     background-image: url(./Model-3-Interior-Hero-Desktop-LHD.jpeg);
@@ -170,3 +176,44 @@ a{
         height: 33.333% !important;
     }
 }
+
+
+.tooltip2 {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip2 .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    /* background-color: #555; */
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    left: 800%;
+    top: 0%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  /* .tooltip2 .tooltiptext::after {
+    content: "";
+    position: absolute;
+    left: 120%;
+    right: ;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  } */
+  
+  .tooltip2:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
