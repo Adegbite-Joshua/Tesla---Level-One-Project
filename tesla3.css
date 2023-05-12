@@ -18,13 +18,13 @@ body{
     overflow-x: hidden;
     overflow-y: visible;
 }
-.poid{
+.pointerDiv{
     width: 1px !important;
-    height:35px;
+    height:45px;
     margin-top: 30vh;
     z-index: 99999;
 }
-.poid a{
+.pointerDiv a{
     width: 5px !important;
     height: 3px !important;
     background-color: red !important;
@@ -32,7 +32,7 @@ body{
     padding: 5px 0;
     
 }
-.poid a:active{
+.pointerDiv a:active{
     background-color: black !important;
 }
 .h11{
@@ -86,25 +86,25 @@ a{
     color: black !important;
     text-decoration: underline transparent !important;
 }
-.foosm{
+.footersmall{
     font-size: 0.7em;
 }
-.hlarg{
+.largeDiv{
     height: 50%;
 }
 @media (min-width: 768px) {
-    .hlarg{
+    .largeDiv{
         height: 100% !important;
     }
-    .hotw{
+    .divWidth{
         height: 75% !important;
     }
     .height88{
         height: 150vh !important;
     }
-    .hotwo{
+    /* .hotwo{
         height: 25%;
-    }
+    } */
 }
 
 @media (max-width: 767px) {

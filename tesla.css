@@ -45,10 +45,10 @@ a{
     background-size: 150% 200%;
     background-position: -400px -200px;
 }
-.boo:hover{
+.center-text:hover{
     text-decoration: underline 2px !important;
 }
-.buthe{
+.center-button{
     height: 45px;
 }
 .h33{
@@ -81,7 +81,7 @@ a{
     background-size: 100% 170%;
     background-position: 0 -250px;
 }
-.bigt{
+.bigtitle{
     animation-name: disappearb;
     animation-direction: alternate;
     animation-iteration-count: infinite;
@@ -89,7 +89,7 @@ a{
     animation-play-state: paused;
 
 }
-.bigt:-moz-full-screen{
+.bigtitle:-moz-full-screen{
     animation-play-state: running;
 }
 
@@ -98,7 +98,7 @@ a{
     
 }
 
-.foosm{
+.footersmall{
     font-size: 0.7em;
 }
 
